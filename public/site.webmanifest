@@ -1,0 +1,16 @@
+{
+  "name": "Vijay Rathod — Portfolio",
+  "short_name": "VR Portfolio",
+  "description": "Full Stack Developer & Agentic AI Engineer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#818cf8",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

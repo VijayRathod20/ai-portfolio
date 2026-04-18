@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI-Powered Agentic Portfolio
 
-## Getting Started
+A high-performance, SEO-optimized personal portfolio featuring a custom Agentic AI assistant, glassmorphism UI, and an MDX-powered blog system.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **⚡ Next.js 15** — App Router, SSR, and static generation for blazing-fast performance
+- **🎨 Glassmorphism UI** — Modern frosted-glass design with Tailwind CSS + Framer Motion
+- **🌙 Dark/Light Mode** — Seamless theme switching with next-themes
+- **🔍 SEO Optimized** — JSON-LD structured data, Open Graph, Twitter Cards, sitemap, robots.txt
+- **🤖 AI Assistant** — (Week 3) Google Gemini 1.5 Flash powered conversational AI clone
+- **📝 MDX Blog** — (Week 4) Interactive blog with code snippets and SEO-friendly slugs
+- **📱 Fully Responsive** — Mobile-first design with smooth animations
+- **♿ Accessible** — Keyboard navigation, ARIA labels, focus management
+- **📊 Analytics** — Vercel Analytics integration
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Animations | Framer Motion |
+| Theme | next-themes |
+| Icons | Lucide React + Custom SVGs |
+| Analytics | Vercel Analytics |
+| Deployment | Vercel |
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── blog/               # Blog section
+│   ├── globals.css          # Design system & tokens
+│   ├── layout.tsx           # Root layout with SEO
+│   ├── page.tsx             # Home page
+│   ├── not-found.tsx        # Custom 404
+│   ├── sitemap.ts           # Dynamic sitemap
+│   └── robots.ts            # Crawling rules
+├── components/
+│   ├── layout/              # Navbar, Footer
+│   ├── sections/            # Hero, About, Projects, Experience, Stats, Contact
+│   └── ui/                  # ThemeToggle, ScrollToTop, Icons, etc.
+├── data/                    # Site config & resume data
+├── lib/                     # Utilities & hooks
+├── providers/               # Theme provider
+└── types/                   # TypeScript interfaces
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Install dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Start development server
+npm run dev
 
-## Learn More
+# Build for production
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# Start production server
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📋 Customization
 
-## Deploy on Vercel
+1. **Personal Info** — Edit `src/data/site-config.ts` with your name, links, and SEO keywords
+2. **Resume Data** — Update `src/data/resume.ts` with your skills, projects, experience, and education
+3. **Design Tokens** — Modify CSS variables in `src/app/globals.css` to change colors and branding
+4. **Content** — Update section components in `src/components/sections/`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🗺️ Roadmap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [x] Week 1: Foundations (Next.js, Tailwind, SEO)
+- [x] Week 2: Core UI (Sections, animations, blog placeholder)
+- [x] Week 3: AI Integration (Gemini API, streaming chat)
+- [ ] Week 4: Blog & SEO (MDX engine, keyword optimization)
+- [ ] Week 5: Polish & Launch (Testing, optimization, deployment)
+
+## 📄 License
+
+MIT

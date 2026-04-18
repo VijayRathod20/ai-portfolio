@@ -1,0 +1,55 @@
+import { type NavItem, type SiteConfig } from "@/types";
+
+export const siteConfig: SiteConfig = {
+  name: "Vijay Rathod",
+  title: "Vijay Rathod — Agentic AI Developer & Full Stack Engineer | Building AI-Powered Applications",
+  description:
+    "Agentic AI Developer & Full Stack Engineer with 3+ years of experience building AI-powered applications, intelligent agents, and scalable production systems. Expert in LLM integration, prompt engineering, AI agent development, MERN Stack, and real-time architectures. Hire an AI engineer who builds smart, production-ready AI solutions.",
+  url: "https://vijayrathod.dev",
+  ogImage: "/og-image.svg",
+  links: {
+    github: "https://github.com/VijayRathod20",
+    linkedin: "https://linkedin.com/in/vijay-rathod-a81628188",
+    email: "rathodvijay8452@gmail.com",
+  },
+  keywords: [
+    "Agentic AI Developer",
+    "AI Engineer",
+    "AI Developer",
+    "Agentic AI Engineer",
+    "AI Agent Developer",
+    "LLM Developer",
+    "AI Application Developer",
+    "Artificial Intelligence Engineer",
+    "Full Stack AI Developer",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Prompt Engineer",
+    "AI Integration Expert",
+    "Next.js Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Vijay Rathod",
+    "Vijay Rathod AI Developer",
+    "Hire AI Developer",
+    "Hire Agentic AI Developer",
+    "AI Powered Applications",
+    "LLM Integration",
+    "Google Gemini Developer",
+    "Groq Developer",
+    "MCP Tools Developer",
+    "Context Engineering",
+    "Real-time Systems Architect",
+    "Event-Driven Architecture",
+    "Cross-Platform Developer",
+  ],
+};
+
+export const navItems: NavItem[] = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "#contact" },
+];
